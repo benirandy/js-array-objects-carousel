@@ -283,6 +283,8 @@ class CardCarousel extends DraggingEvent {
         return newX;
     }
 
+
+    
     moveCards(data) {
         let xDist;
 
@@ -292,7 +294,7 @@ class CardCarousel extends DraggingEvent {
         } else {
 
 
-            
+
             this.container.classList.add("smooth-return")
             xDist = 0;
 
